@@ -1,17 +1,17 @@
 import { getTranslations, getLocale } from "next-intl/server";
 import { lifeCategories } from "@/content/life";
 import type { Locale } from "@/i18n/routing";
+import { Rail } from "@/components/ui/Rail";
 
 /**
- * Student life, as a drag-scroll rail.
+ * Out-of-class activities.
  *
- * DRAG, never wheel-hijack: a horizontal section that steals the scroll wheel
- * is the most common way these sites break on Android. Native scroll-snap does
- * the whole job with zero JavaScript.
+ * The cards now sit in a <Rail>, which aligns them with the section heading
+ * and gives mouse users arrows — previously they were 24px out of alignment
+ * and unreachable without a trackpad.
  *
- * The tiles are generated compositions, not stock photos. When the school's
- * photography arrives, each tile takes an <Image> in the same slot — see
- * MEDIA.md for the shot list.
+ * Tiles are generated compositions, not stock photos. When the school's
+ * photography arrives each one takes an <Image> in the same slot; see MEDIA.md.
  */
 function Tile({
   hue,
@@ -38,16 +38,12 @@ function Tile({
           </linearGradient>
         </defs>
         <rect width="400" height="300" fill={`url(#${gid})`} />
-
-        {/* The crest's concentric arcs, used as texture */}
         <g fill="none" stroke="#fff" strokeOpacity="0.17" strokeWidth="1.25">
           <circle cx="342" cy="58" r="150" />
           <circle cx="342" cy="58" r="112" />
           <circle cx="342" cy="58" r="74" />
           <circle cx="342" cy="58" r="36" />
         </g>
-
-        {/* The star, small and low — a mark, not a mascot */}
         <path
           d="M58 232 L64 250 L82 256 L64 262 L58 280 L52 262 L34 256 L52 250 Z"
           fill="#fff"
@@ -61,6 +57,7 @@ function Tile({
 export async function StudentLife() {
   const locale = (await getLocale()) as Locale;
   const t = await getTranslations("life");
+  const tc = await getTranslations("common");
 
   return (
     <section className="tone-paper relative" id="hayot">
@@ -74,33 +71,37 @@ export async function StudentLife() {
         </header>
       </div>
 
-      {/* Bleeds off the right edge — signals "there is more" without a label. */}
-      <div className="drag-x mt-14 flex gap-6 px-6 pb-24 sm:px-8 lg:px-10 lg:pb-36">
-        {lifeCategories.map((category, index) => (
-          <article
-            key={category.id}
-            className="group w-[78vw] shrink-0 sm:w-[44vw] lg:w-[24rem]"
-          >
-            <div className="overflow-hidden rounded-[1.5rem] transition-transform duration-[600ms] ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:-translate-y-1.5">
-              <Tile hue={category.hue} index={index} />
-            </div>
+      <div className="mt-14 pb-24 lg:pb-36">
+        <Rail
+          label={t("title")}
+          prevLabel={tc("prev")}
+          nextLabel={tc("next")}
+        >
+          {lifeCategories.map((category, index) => (
+            <article
+              key={category.id}
+              className="group w-[80vw] shrink-0 sm:w-[44vw] lg:w-[24rem]"
+            >
+              <div className="overflow-hidden rounded-[1.5rem] transition-transform duration-[600ms] ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:-translate-y-1.5">
+                <Tile hue={category.hue} index={index} />
+              </div>
 
-            <div className="mt-6 flex items-baseline gap-4">
-              <span
-                aria-hidden
-                className="text-[1rem] font-semibold tabular-nums tone-accent"
-              >
-                0{index + 1}
-              </span>
-              <h3 className="text-2xl tone-display">{category.title[locale]}</h3>
-            </div>
+              <div className="mt-6 flex items-baseline gap-4">
+                <span
+                  aria-hidden
+                  className="text-[1rem] font-semibold tabular-nums tone-accent"
+                >
+                  0{index + 1}
+                </span>
+                <h3 className="text-2xl tone-display">
+                  {category.title[locale]}
+                </h3>
+              </div>
 
-            <p className="mt-3 text-lg tone-muted">{category.body[locale]}</p>
-          </article>
-        ))}
-
-        {/* Trailing spacer so the last card can scroll clear of the edge. */}
-        <div aria-hidden className="w-2 shrink-0 sm:w-8" />
+              <p className="mt-3 text-lg tone-muted">{category.body[locale]}</p>
+            </article>
+          ))}
+        </Rail>
       </div>
     </section>
   );

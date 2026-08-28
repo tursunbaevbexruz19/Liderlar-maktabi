@@ -470,4 +470,46 @@
   .drag-x > * {
     scroll-snap-align: start;
   }
+
+  /*
+    Aligns a full-bleed horizontal rail with the page's content column.
+
+    Without `scroll-padding-inline`, a snapped card lands flush against the
+    screen edge while the section heading above it sits at the container
+    gutter — measured 24px out of alignment on a 375px screen, which is what
+    made the activities row look off-centre.
+
+    `--pad` mirrors the container's own px-6 / sm:px-8 / lg:px-10, and the
+    max() reproduces how a centred max-width container places its content
+    edge, so cards land exactly under the heading at every width.
+  */
+  .rail-gutter {
+    --pad: 1.5rem;
+    /*
+      `100%`, never `100vw`. `100vw` includes the vertical scrollbar while the
+      centred container does not, which left the cards 8px out of alignment on
+      desktop — visible, and exactly the kind of near-miss that makes a layout
+      feel sloppy. `100%` resolves against the real layout width.
+    */
+    --gutter: max(var(--pad), calc((100% - 86rem) / 2 + var(--pad)));
+    padding-inline: var(--gutter);
+    scroll-padding-inline: var(--gutter);
+  }
+
+  @media (min-width: 640px) {
+    .rail-gutter {
+      --pad: 2rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .rail-gutter {
+      --pad: 2.5rem;
+    }
+  }
+
+  /* Rails that live inside the container rather than full-bleed. */
+  .rail-inset {
+    scroll-padding-inline: 0;
+  }
 }

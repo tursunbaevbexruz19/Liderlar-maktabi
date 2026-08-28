@@ -46,9 +46,17 @@ export function Parliament({
           {roles.map((role, index) => {
             const isOpen = open === role.id;
             return (
+              /*
+                Sticky ONLY from lg up. On a phone the five cards are each
+                ~133px tall and stack from a 96px offset, so they pile on top
+                of one another inside the top ~170px of an 812px screen — the
+                desktop card-stack effect reads as a broken overlap on mobile.
+                Below lg they are a plain vertical list. `top` is inert on a
+                non-sticky element, so it can stay.
+              */
               <li
                 key={role.id}
-                className="sticky"
+                className="lg:sticky"
                 style={{ top: `calc(6rem + ${index * 1.1}rem)` }}
               >
                 <button

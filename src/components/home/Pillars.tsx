@@ -28,7 +28,7 @@ export async function Pillars() {
               className="card card-hover group flex h-full flex-col p-9 lg:p-10"
             >
               <div className="flex items-baseline justify-between gap-4">
-                <span className="text-[0.9375rem] font-bold tracking-[0.32em] tone-accent">
+                <span className="text-[1rem] font-bold tracking-[0.3em] tone-accent">
                   {pillar.word}
                 </span>
                 <span className="text-[1.0625rem] tone-muted">

@@ -129,7 +129,9 @@
     "todo": "Aniqlanmoqda",
     "readMore": "Batafsil",
     "back": "Ortga",
-    "close": "Yopish"
+    "close": "Yopish",
+    "prev": "Orqaga",
+    "next": "Oldinga"
   },
   "faq": {
     "eyebrow": "Savollar",

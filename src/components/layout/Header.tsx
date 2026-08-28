@@ -126,11 +126,18 @@ export function Header() {
         </div>
       </div>
 
-      {/* Mobile menu — large targets, generous type. Built for a thumb. */}
+      {/*
+        Mobile menu — large targets, generous type, built for a thumb.
+
+        Positioned `absolute top-full` against the sticky header rather than
+        `fixed top-[84px]`. The hardcoded value was wrong: the header measures
+        81px, so the panel sat 3px below it and left a visible seam. Anchoring
+        to the header itself is exact at any header height or font size.
+      */}
       <div
         id="mobile-menu"
         hidden={!open}
-        className="tone-paper fixed inset-x-0 bottom-0 top-[84px] z-40 overflow-y-auto border-t border-[color:var(--tone-rule)] bg-paper xl:hidden"
+        className="tone-paper absolute inset-x-0 top-full z-40 max-h-[calc(100dvh-100%)] overflow-y-auto border-t border-[color:var(--tone-rule)] bg-paper xl:hidden"
       >
         <nav
           aria-label={t("menu")}

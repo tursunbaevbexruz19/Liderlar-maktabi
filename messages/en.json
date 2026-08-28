@@ -129,7 +129,9 @@
     "todo": "To be confirmed",
     "readMore": "Read more",
     "back": "Back",
-    "close": "Close"
+    "close": "Close",
+    "prev": "Previous",
+    "next": "Next"
   },
   "faq": {
     "eyebrow": "Questions",
