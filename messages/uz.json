@@ -3,7 +3,7 @@
     "school": "Liderlar Maktabi",
     "tagline": "LEARN · GROW · LEAD",
     "region": "Sirdaryo, Oʻzbekiston",
-    "description": "Sirdaryodagi 6–11-sinf litseyi. Sakkizta fan yoʻnalishi, imtihon tayyorgarligi va oliygohga hujjat topshirishda yordam."
+    "description": "Sirdaryodagi maktab. Fan yoʻnalishlari, imtihon tayyorgarligi va oliygohga hujjat topshirishda yordam."
   },
   "nav": {
     "about": "Maktab haqida",
@@ -20,11 +20,11 @@
     "skip": "Asosiy qismga oʻtish"
   },
   "hero": {
-    "eyebrow": "Sirdaryo · 1996-yildan",
-    "titleA": "6–11-sinflar uchun",
-    "titleHighlight": "litsey",
-    "titleB": "Sirdaryoda.",
-    "lead": "Sakkizta fan yoʻnalishi. Imtihon tayyorgarligi va oliygohga hujjat topshirish maktab ichida. Har bir oila bilan bitta masʼul oʻqituvchi ishlaydi.",
+    "eyebrow": "1996-yildan",
+    "titleA": "Sirdaryodagi",
+    "titleHighlight": "Liderlar Maktabi",
+    "titleB": "",
+    "lead": "Fan yoʻnalishlari, imtihon tayyorgarligi va oliygohga hujjat topshirish — bitta maktabda. Har bir oila bilan bitta masʼul oʻqituvchi ishlaydi.",
     "ctaApply": "Tashrifga yozilish",
     "ctaTour": "Bitiruvchilar videosi",
     "scroll": "Pastga"
@@ -51,11 +51,8 @@
   },
   "academics": {
     "eyebrow": "Taʼlim",
-    "title": "Farzandingiz nechanchi sinfda?",
-    "lead": "Sinfni tanlang — shu sinf uchun fan yoʻnalishlarini koʻrsatamiz. Fan bloki 9-sinfdan oila bilan birga tanlanadi.",
-    "gradeLabel": "{grade}-sinf",
-    "subjectsFor": "{grade}-sinf yoʻnalishlari",
-    "allGrades": "Barchasi",
+    "title": "Fan yoʻnalishlari",
+    "lead": "Fan bloki oila bilan birga tanlanadi.",
     "groupScience": "Aniq va tabiiy fanlar",
     "groupHumanities": "Ijtimoiy fanlar",
     "groupLanguage": "Tillar",
@@ -65,8 +62,7 @@
     "eyebrow": "Oʻquvchilar",
     "title": "Oʻquvchilar parlamenti",
     "lead": "Besh oʻquvchi bir yil davomida maktab ishlarini olib boradi: tadbirlar, volontyorlik va media. Lavozimlar saylov orqali beriladi.",
-    "hint": "Lavozimni bosing",
-    "gradeLabel": "{grade}-sinf"
+    "hint": "Lavozimni bosing"
   },
   "life": {
     "eyebrow": "Maktab hayoti",

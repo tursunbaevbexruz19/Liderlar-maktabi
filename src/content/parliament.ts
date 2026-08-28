@@ -17,7 +17,6 @@ export const parliament = [
     id: "president",
     role: { uz: "Prezident", ru: "Президент", en: "President" },
     holder: "",
-    grade: "11",
     did: {
       uz: "Oʻquvchilar kengashini boshqaradi. Har hafta maktab maʼmuriyati bilan uchrashadi.",
       ru: "Возглавляет совет учеников. Еженедельно встречается с администрацией школы.",
@@ -32,7 +31,6 @@ export const parliament = [
       en: "Event Manager",
     },
     holder: "",
-    grade: "10",
     did: {
       uz: "Yillik tadbirlar rejasini tuzadi va tadbirlarni oʻtkazadi.",
       ru: "Составляет годовой план мероприятий и проводит их.",
@@ -47,7 +45,6 @@ export const parliament = [
       en: "Head of Volunteers",
     },
     holder: "",
-    grade: "10",
     did: {
       uz: "Volontyorlik guruhini tuzadi va mahalladagi ishlarni tashkil qiladi.",
       ru: "Формирует волонтёрскую группу и организует работу в махалле.",
@@ -58,7 +55,6 @@ export const parliament = [
     id: "media",
     role: { uz: "Media rahbari", ru: "Руководитель медиа", en: "Head of Media" },
     holder: "",
-    grade: "11",
     did: {
       uz: "Maktabning ijtimoiy tarmoqlarini yuritadi va video tayyorlaydi.",
       ru: "Ведёт соцсети школы и готовит видео.",
@@ -73,7 +69,6 @@ export const parliament = [
       en: "Media Assistant",
     },
     holder: "",
-    grade: "9",
     did: {
       uz: "Tadbirlarni suratga oladi va montaj qiladi.",
       ru: "Снимает и монтирует мероприятия.",

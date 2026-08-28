@@ -2,7 +2,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Metadata } from "next";
 import { routing } from "@/i18n/routing";
 import { PageHeader } from "@/components/ui/PageHeader";
-import { AcademicsSection } from "@/components/home/sections";
+import { Academics } from "@/components/home/Academics";
 import { ProofStrip } from "@/components/home/ProofStrip";
 import { Tracks } from "@/components/home/Tracks";
 import { AdmissionsCta } from "@/components/home/AdmissionsCta";
@@ -38,7 +38,7 @@ export default async function AcademicsPage({
         title={tNav("academics")}
         lead={tPillars("title")}
       />
-      <AcademicsSection />
+      <Academics />
       <ProofStrip />
       <Tracks />
       <AdmissionsCta />

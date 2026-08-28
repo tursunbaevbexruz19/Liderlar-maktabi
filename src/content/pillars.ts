@@ -18,9 +18,9 @@ export const pillars = [
       en: "Subject tracks",
     },
     body: {
-      uz: "6-sinfdan 11-sinfgacha sakkizta fan yoʻnalishi. Fan bloki 9-sinfdan oila bilan birga tanlanadi.",
-      ru: "Восемь профильных направлений с 6 по 11 класс. Блок выбирается вместе с семьёй с 9 класса.",
-      en: "Eight subject tracks from Grade 6 to Grade 11. The block is chosen with the family from Grade 9.",
+      uz: "Sakkizta fan yoʻnalishi. Fan bloki oila bilan birga tanlanadi.",
+      ru: "Восемь профильных направлений. Блок выбирается вместе с семьёй.",
+      en: "Eight subject tracks. The block is chosen together with the family.",
     },
     href: "/talim",
   },

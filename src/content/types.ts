@@ -43,17 +43,14 @@ export type Stat = {
 export type Subject = {
   id: string;
   name: Localized;
-  /** Grades this subject is offered as a specialization track. */
-  grades: number[];
   group: "science" | "humanities" | "language" | "tech";
 };
 
 export type ParliamentRole = {
   id: string;
   role: Localized;
-  /** TODO:CONFIRM — real student names needed. */
+  /** Empty until the school supplies real names; the UI omits the line. */
   holder: string;
-  grade: string;
   /** What this person actually did this year. Proof the role is real. */
   did: Localized;
 };

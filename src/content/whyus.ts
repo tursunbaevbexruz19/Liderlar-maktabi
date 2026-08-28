@@ -38,9 +38,9 @@ export const reasons = [
       en: "Exam preparation is included in the fee",
     },
     body: {
-      uz: "Fan bloki 9-sinfdan oila bilan birga tanlanadi. 11-sinfdagi tayyorgarlik uchun alohida toʻlov olinmaydi.",
-      ru: "Профильный блок выбирается вместе с семьёй с 9 класса. За подготовку в 11 классе отдельная плата не берётся.",
-      en: "The exam block is chosen with the family from Grade 9. There is no separate charge for Grade 11 preparation.",
+      uz: "Fan bloki oila bilan birga tanlanadi. Bitiruv imtihoniga tayyorgarlik uchun alohida toʻlov olinmaydi.",
+      ru: "Профильный блок выбирается вместе с семьёй. За подготовку к выпускным экзаменам отдельная плата не берётся.",
+      en: "The exam block is chosen together with the family. There is no separate charge for final exam preparation.",
     },
   },
   {
@@ -89,9 +89,9 @@ export const parentVoices = [
     id: "p1",
     name: "",
     relation: {
-      uz: "9-sinf oʻquvchisining onasi",
-      ru: "Мама ученика 9 класса",
-      en: "Mother of a grade 9 student",
+      uz: "Oʻquvchining onasi",
+      ru: "Мама ученика",
+      en: "Mother of a student",
     },
     quote: {
       uz: "Oʻgʻlim uyda maktab tadbirini tashkil qilayotganini aytdi. Avval bunday emasdi.",
@@ -117,9 +117,9 @@ export const parentVoices = [
     id: "p3",
     name: "",
     relation: {
-      uz: "11-sinf oʻquvchisining otasi",
-      ru: "Отец ученицы 11 класса",
-      en: "Father of a grade 11 student",
+      uz: "Oʻquvchining otasi",
+      ru: "Отец ученицы",
+      en: "Father of a student",
     },
     quote: {
       uz: "Imtihon natijasi yaxshi. Qizim endi odamlar oldida bemalol gapiradi.",

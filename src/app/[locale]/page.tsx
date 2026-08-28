@@ -12,9 +12,9 @@ import { SuccessStories } from "@/components/home/SuccessStories";
 import { ParentVoices } from "@/components/home/ParentVoices";
 import { Tracks } from "@/components/home/Tracks";
 import { AdmissionsCta } from "@/components/home/AdmissionsCta";
+import { Academics } from "@/components/home/Academics";
 import {
   RoadmapSection,
-  AcademicsSection,
   ParliamentSection,
 } from "@/components/home/sections";
 
@@ -44,7 +44,7 @@ export default async function HomePage({
       <Pillars /> {/* paper */}
       <TaglineBand label={tTagline("label")} /> {/* paper — the one motion moment */}
       <RoadmapSection /> {/* sand  */}
-      <AcademicsSection /> {/* paper */}
+      <Academics /> {/* paper */}
       <WhyUs /> {/* sand  */}
       <ParliamentSection /> {/* navy  */}
       <StudentLife /> {/* paper */}

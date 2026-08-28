@@ -20,9 +20,7 @@ export function Parliament({
   roles,
   labels,
 }: {
-  /** `gradeText` is pre-formatted on the server — "11-sinf" / "11 класс" /
-   *  "Grade 11" — because ICU formatting cannot cross the client boundary. */
-  roles: (ParliamentView & { gradeText: string })[];
+  roles: ParliamentView[];
   labels: {
     eyebrow: string;
     title: string;
@@ -72,10 +70,11 @@ export function Parliament({
                         <span className="block text-d3 leading-tight tone-display">
                           {role.role}
                         </span>
-                        <span className="mt-2 block text-lg tone-muted">
-                          {role.holder ? `${role.holder} · ` : ""}
-                          {role.gradeText}
-                        </span>
+                        {role.holder ? (
+                          <span className="mt-2 block text-lg tone-muted">
+                            {role.holder}
+                          </span>
+                        ) : null}
                       </span>
                     </div>
 

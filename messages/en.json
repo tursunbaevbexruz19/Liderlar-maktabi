@@ -3,7 +3,7 @@
     "school": "Liderlar Maktabi",
     "tagline": "LEARN · GROW · LEAD",
     "region": "Sirdaryo, Uzbekistan",
-    "description": "A Grades 6–11 lyceum in Sirdaryo. Eight subject tracks, exam preparation, and help with university applications."
+    "description": "A school in Sirdaryo. Subject tracks, exam preparation, and help with university applications."
   },
   "nav": {
     "about": "About",
@@ -20,11 +20,11 @@
     "skip": "Skip to content"
   },
   "hero": {
-    "eyebrow": "Sirdaryo · since 1996",
-    "titleA": "A lyceum for",
-    "titleHighlight": "grades 6–11",
-    "titleB": "in Sirdaryo.",
-    "lead": "Eight subject tracks. Exam preparation and university applications are handled inside the school. One teacher is responsible for each family.",
+    "eyebrow": "Since 1996",
+    "titleA": "Liderlar Maktabi",
+    "titleHighlight": "in Sirdaryo",
+    "titleB": "",
+    "lead": "Subject tracks, exam preparation and university applications in one school. One teacher is responsible for each family.",
     "ctaApply": "Book a visit",
     "ctaTour": "Watch our graduates",
     "scroll": "Scroll"
@@ -51,11 +51,8 @@
   },
   "academics": {
     "eyebrow": "Academics",
-    "title": "What grade is your child in?",
-    "lead": "Choose a grade and we'll show the subject tracks for it. The exam block is chosen with the family from Grade 9.",
-    "gradeLabel": "Grade {grade}",
-    "subjectsFor": "Tracks for grade {grade}",
-    "allGrades": "All",
+    "title": "Subject tracks",
+    "lead": "The block is chosen together with the family.",
     "groupScience": "Sciences",
     "groupHumanities": "Humanities",
     "groupLanguage": "Languages",
@@ -65,8 +62,7 @@
     "eyebrow": "Students",
     "title": "The Student Parliament",
     "lead": "Five students run school activities for the year: events, volunteering and media. The posts are filled by election.",
-    "hint": "Tap a role",
-    "gradeLabel": "Grade {grade}"
+    "hint": "Tap a role"
   },
   "life": {
     "eyebrow": "Student life",

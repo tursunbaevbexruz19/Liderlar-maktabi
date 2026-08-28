@@ -5,7 +5,7 @@ import { stats } from "@/content/stats";
 import { parliament } from "@/content/parliament";
 import { alumni } from "@/content/alumni";
 import { tracks } from "@/content/tracks";
-import { subjects, grades } from "@/content/academics";
+import { subjects } from "@/content/academics";
 import type { Localized } from "@/content/types";
 
 /**
@@ -56,7 +56,6 @@ export function getParliament(locale: Locale) {
     id: r.id,
     role: pick(r.role, locale),
     holder: r.holder,
-    grade: r.grade,
     did: pick(r.did, locale),
   }));
 }
@@ -86,13 +85,8 @@ export function getSubjects(locale: Locale) {
   return subjects.map((s) => ({
     id: s.id,
     name: pick(s.name, locale),
-    grades: s.grades as readonly number[],
     group: s.group,
   }));
-}
-
-export function getGrades() {
-  return grades;
 }
 
 export type MilestoneView = ReturnType<typeof getMilestones>[number];

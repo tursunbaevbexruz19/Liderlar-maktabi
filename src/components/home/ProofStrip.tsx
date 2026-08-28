@@ -22,7 +22,7 @@ export async function ProofStrip() {
             <dd>, but the figure has to read first visually. Faking it with
             sr-only text makes every stat announce its label twice. */}
         <ul
-          className="mt-12 grid gap-x-10 gap-y-14 sm:grid-cols-2 lg:grid-cols-4"
+          className="mt-12 grid gap-x-10 gap-y-14 sm:grid-cols-2 lg:grid-cols-3"
           data-stagger
         >
           {stats.map((stat) => (

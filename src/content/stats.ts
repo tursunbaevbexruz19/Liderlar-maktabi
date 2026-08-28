@@ -17,20 +17,6 @@ import type { Stat } from "./types";
  */
 export const stats = [
   {
-    id: "grades",
-    value: "6–11",
-    label: {
-      uz: "Sinflar",
-      ru: "Классы",
-      en: "Grades",
-    },
-    note: {
-      uz: "Olti yil — bitta maktabda",
-      ru: "Шесть лет — в одной школе",
-      en: "Six years, one school",
-    },
-  },
-  {
     id: "since",
     value: "1996",
     label: {
@@ -53,9 +39,9 @@ export const stats = [
       en: "Subject tracks",
     },
     note: {
-      uz: "Blok 9-sinfdan tanlanadi",
-      ru: "Блок выбирается с 9 класса",
-      en: "The block is chosen from Grade 9",
+      uz: "Blok oila bilan tanlanadi",
+      ru: "Блок выбирается вместе с семьёй",
+      en: "The block is chosen with the family",
     },
   },
   {
