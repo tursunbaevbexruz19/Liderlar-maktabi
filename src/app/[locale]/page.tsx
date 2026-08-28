@@ -13,6 +13,7 @@ import { ParentVoices } from "@/components/home/ParentVoices";
 import { Tracks } from "@/components/home/Tracks";
 import { AdmissionsCta } from "@/components/home/AdmissionsCta";
 import { Academics } from "@/components/home/Academics";
+import { Faq } from "@/components/home/Faq";
 import {
   RoadmapSection,
   ParliamentSection,
@@ -51,6 +52,7 @@ export default async function HomePage({
       <SuccessStories /> {/* sand  */}
       <ParentVoices /> {/* navy  */}
       <Tracks /> {/* paper */}
+      <Faq /> {/* sand  */}
       <AdmissionsCta /> {/* navy  */}
     </>
   );

@@ -5,6 +5,7 @@ import { PageHeader } from "@/components/ui/PageHeader";
 import { Tracks } from "@/components/home/Tracks";
 import { ProofStrip } from "@/components/home/ProofStrip";
 import { AdmissionsCta } from "@/components/home/AdmissionsCta";
+import { Faq } from "@/components/home/Faq";
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -42,6 +43,7 @@ export default async function AdmissionsPage({
           down, a family's application must not vanish mid-admissions season. */}
       <ProofStrip />
       <Tracks />
+      <Faq />
       <AdmissionsCta />
     </>
   );

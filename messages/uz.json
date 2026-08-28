@@ -130,5 +130,20 @@
     "readMore": "Batafsil",
     "back": "Ortga",
     "close": "Yopish"
+  },
+  "faq": {
+    "eyebrow": "Savollar",
+    "title": "Koʻp beriladigan savollar",
+    "lead": "Javobini topmadingizmi? Telegramda yozing — odatda oʻsha kuni javob beramiz."
+  },
+  "notFound": {
+    "title": "Sahifa topilmadi",
+    "body": "Bu manzilda sahifa yoʻq. Bosh sahifaga qayting yoki bizga yozing.",
+    "cta": "Bosh sahifa"
+  },
+  "error": {
+    "title": "Xatolik yuz berdi",
+    "body": "Sahifani yuklab boʻlmadi. Qayta urinib koʻring.",
+    "cta": "Qayta urinish"
   }
 }

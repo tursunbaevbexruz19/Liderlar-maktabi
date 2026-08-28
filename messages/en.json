@@ -130,5 +130,20 @@
     "readMore": "Read more",
     "back": "Back",
     "close": "Close"
+  },
+  "faq": {
+    "eyebrow": "Questions",
+    "title": "Frequently asked",
+    "lead": "Not answered here? Message us on Telegram — we usually reply the same day."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "body": "There is no page at this address. Go back to the homepage or message us.",
+    "cta": "Homepage"
+  },
+  "error": {
+    "title": "Something went wrong",
+    "body": "This page could not be loaded. Please try again.",
+    "cta": "Try again"
   }
 }
