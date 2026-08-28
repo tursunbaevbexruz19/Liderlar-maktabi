@@ -1,0 +1,35 @@
+.text-loop {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/*
+  height: 100% + preserveAspectRatio="xMidYMid slice" on the <svg>.
+
+  The stock component ships `height: auto` with `meet`, which makes the SVG
+  render at its natural 1200:520 ratio — about 820px tall in a wide viewport.
+  Inside a clipped, shorter container that means you see only the EMPTY TOP
+  SLICE of the artwork and the ribbon never appears at all. That was the blank
+  band on the homepage.
+
+  Slicing from the centre keeps the wave (drawn at the vertical midpoint of the
+  viewBox) centred in whatever height the band is given.
+*/
+.text-loop-svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.text-loop-text {
+  user-select: none;
+  font-family: var(--font-sans);
+}
+
+.text-loop-measure {
+  visibility: hidden;
+  pointer-events: none;
+  font-family: var(--font-sans);
+}

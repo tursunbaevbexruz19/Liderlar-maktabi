@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "school": "Liderlar Maktabi",
+    "tagline": "LEARN · GROW · LEAD",
+    "region": "Sirdaryo, Oʻzbekiston",
+    "description": "Sirdaryodagi 6–11-sinf litseyi. Sakkizta fan yoʻnalishi, imtihon tayyorgarligi va oliygohga hujjat topshirishda yordam."
+  },
+  "nav": {
+    "about": "Maktab haqida",
+    "academics": "Taʼlim",
+    "life": "Maktab hayoti",
+    "alumni": "Bitiruvchilar",
+    "admissions": "Qabul",
+    "news": "Yangiliklar",
+    "contact": "Aloqa",
+    "apply": "Tashrifga yozilish",
+    "menu": "Menyu",
+    "close": "Yopish",
+    "language": "Til",
+    "skip": "Asosiy qismga oʻtish"
+  },
+  "hero": {
+    "eyebrow": "Sirdaryo · 1996-yildan",
+    "titleA": "6–11-sinflar uchun",
+    "titleHighlight": "litsey",
+    "titleB": "Sirdaryoda.",
+    "lead": "Sakkizta fan yoʻnalishi. Imtihon tayyorgarligi va oliygohga hujjat topshirish maktab ichida. Har bir oila bilan bitta masʼul oʻqituvchi ishlaydi.",
+    "ctaApply": "Tashrifga yozilish",
+    "ctaTour": "Bitiruvchilar videosi",
+    "scroll": "Pastga"
+  },
+  "statement": {
+    "body": "Maktabga keling: darsda oʻtiring, oʻqituvchilar bilan tanishing, chorak hisobotlarini koʻring.",
+    "honestyTitle": "Raqamlar haqida",
+    "honesty": "Hujjati boʻlmagan reyting va foizlarni saytga yozmaymiz. Bitiruvchilar qayerda oʻqiyotganini aytamiz, hozirgi ota-onalarning telefonini soʻrasangiz — beramiz."
+  },
+  "proof": {
+    "eyebrow": "Maktab haqida",
+    "title": "Asosiy maʼlumot"
+  },
+  "pillars": {
+    "eyebrow": "Yoʻnalishlar",
+    "title": "Uch yoʻnalish",
+    "more": "Batafsil"
+  },
+  "roadmap": {
+    "eyebrow": "Tarix",
+    "title": "1994-yildan bugungacha",
+    "lead": "Yilni tanlang.",
+    "hint": "Yilni bosing yoki suring"
+  },
+  "academics": {
+    "eyebrow": "Taʼlim",
+    "title": "Farzandingiz nechanchi sinfda?",
+    "lead": "Sinfni tanlang — shu sinf uchun fan yoʻnalishlarini koʻrsatamiz. Fan bloki 9-sinfdan oila bilan birga tanlanadi.",
+    "gradeLabel": "{grade}-sinf",
+    "subjectsFor": "{grade}-sinf yoʻnalishlari",
+    "allGrades": "Barchasi",
+    "groupScience": "Aniq va tabiiy fanlar",
+    "groupHumanities": "Ijtimoiy fanlar",
+    "groupLanguage": "Tillar",
+    "groupTech": "Texnologiya"
+  },
+  "parliament": {
+    "eyebrow": "Oʻquvchilar",
+    "title": "Oʻquvchilar parlamenti",
+    "lead": "Besh oʻquvchi bir yil davomida maktab ishlarini olib boradi: tadbirlar, volontyorlik va media. Lavozimlar saylov orqali beriladi.",
+    "hint": "Lavozimni bosing",
+    "gradeLabel": "{grade}-sinf"
+  },
+  "life": {
+    "eyebrow": "Maktab hayoti",
+    "title": "Darsdan tashqarida",
+    "lead": "Sport, fan olimpiadalari, tadbirlar, safarlar va volontyorlik.",
+    "drag": "Suring"
+  },
+  "alumni": {
+    "eyebrow": "Bitiruvchilar",
+    "title": "Bitiruvchilarimiz",
+    "lead": "Har bir bitiruvchi ikki daqiqada oʻzi haqida gapiradi: qayerda oʻqigan, hozir nima qilyapti.",
+    "watch": "2 daqiqalik video",
+    "classOf": "{year}-yil bitiruvchisi",
+    "destinationsTitle": "Ular oʻqigan joylar",
+    "videoSoon": "Video tayyorlanmoqda",
+    "note": "Videolar bitiruvchilar roziligi bilan qoʻshiladi. Biri bilan gaplashmoqchi boʻlsangiz, ayting.",
+    "placeholder": "Qabul foizlarini hujjat bilan tasdiqlaganimizdan keyin eʼlon qilamiz."
+  },
+  "parents": {
+    "eyebrow": "Ota-onalar",
+    "title": "Ota-onalar fikri",
+    "lead": "Hozir shu yerda oʻqiyotgan bolalarning ota-onalari. Telefon raqamini soʻrasangiz, ruxsat olib bogʻlaymiz."
+  },
+  "tracks": {
+    "eyebrow": "Yoʻnalishlar",
+    "title": "Maktabdan keyin",
+    "finderCta": "Yoʻnalishni aniqlash"
+  },
+  "why": {
+    "eyebrow": "Nimaga biz",
+    "titleA": "Toʻrtta",
+    "titleAccent": "farq",
+    "lead": "Har birini maktabga kelib tekshirishingiz mumkin."
+  },
+  "admissions": {
+    "eyebrow": "Qabul",
+    "title": "Qabul",
+    "lead": "Uch xil yoʻl bor.",
+    "l1Title": "Videolarni koʻrish",
+    "l1Body": "Bitiruvchilar videosini koʻring. Hech narsa toʻldirmaysiz, sizga qoʻngʻiroq qilinmaydi.",
+    "l1Action": "Videolarni koʻrish",
+    "l2Title": "Savol berish",
+    "l2Body": "Telegramda yozing: narx, fan bloklari, transport yoki chet el jarayoni haqida. Odatda oʻsha kuni javob beramiz.",
+    "l2Action": "Telegramda yozish",
+    "l3Title": "Maktabga kelish",
+    "l3Body": "Oddiy oʻquv kunida keling. Darsda oʻtirasiz, oʻqituvchilar bilan tanishasiz. Xohlasangiz, kirish sinovidan oʻtasiz.",
+    "l3Action": "Tashrifga yozilish",
+    "footnote": "Narxni solishtirishdan oldin, oʻtgan yili repetitorlarga qancha toʻlaganingizni hisoblang.",
+    "start": "Boshlash"
+  },
+  "footer": {
+    "address": "Sirdaryo viloyati, Oʻzbekiston",
+    "addressNote": "Aniq manzil uchun bogʻlaning",
+    "phone": "Telefon",
+    "phoneNumber": "+998 __ ___ __ __",
+    "social": "Ijtimoiy tarmoqlar",
+    "rights": "Barcha huquqlar himoyalangan.",
+    "built": "Sayt {year}-yilda yangilandi."
+  },
+  "tagline": {
+    "label": "LEARN GROW LEAD — maktab shiori"
+  },
+  "common": {
+    "todo": "Aniqlanmoqda",
+    "readMore": "Batafsil",
+    "back": "Ortga",
+    "close": "Yopish"
+  }
+}

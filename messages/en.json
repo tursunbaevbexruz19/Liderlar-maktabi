@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "school": "Liderlar Maktabi",
+    "tagline": "LEARN · GROW · LEAD",
+    "region": "Sirdaryo, Uzbekistan",
+    "description": "A Grades 6–11 lyceum in Sirdaryo. Eight subject tracks, exam preparation, and help with university applications."
+  },
+  "nav": {
+    "about": "About",
+    "academics": "Academics",
+    "life": "Student life",
+    "alumni": "Alumni",
+    "admissions": "Admissions",
+    "news": "News",
+    "contact": "Contact",
+    "apply": "Book a visit",
+    "menu": "Menu",
+    "close": "Close",
+    "language": "Language",
+    "skip": "Skip to content"
+  },
+  "hero": {
+    "eyebrow": "Sirdaryo · since 1996",
+    "titleA": "A lyceum for",
+    "titleHighlight": "grades 6–11",
+    "titleB": "in Sirdaryo.",
+    "lead": "Eight subject tracks. Exam preparation and university applications are handled inside the school. One teacher is responsible for each family.",
+    "ctaApply": "Book a visit",
+    "ctaTour": "Watch our graduates",
+    "scroll": "Scroll"
+  },
+  "statement": {
+    "body": "Come to the school: sit in on a lesson, meet the teachers, look at the term reports.",
+    "honestyTitle": "About numbers",
+    "honesty": "We don't put rankings or percentages on this site without a document behind them. We'll tell you where our graduates study, and if you ask for the phone numbers of current parents, we'll give them."
+  },
+  "proof": {
+    "eyebrow": "About the school",
+    "title": "The basics"
+  },
+  "pillars": {
+    "eyebrow": "Areas",
+    "title": "Three areas",
+    "more": "Read more"
+  },
+  "roadmap": {
+    "eyebrow": "History",
+    "title": "From 1994 to today",
+    "lead": "Pick a year.",
+    "hint": "Tap a year or drag"
+  },
+  "academics": {
+    "eyebrow": "Academics",
+    "title": "What grade is your child in?",
+    "lead": "Choose a grade and we'll show the subject tracks for it. The exam block is chosen with the family from Grade 9.",
+    "gradeLabel": "Grade {grade}",
+    "subjectsFor": "Tracks for grade {grade}",
+    "allGrades": "All",
+    "groupScience": "Sciences",
+    "groupHumanities": "Humanities",
+    "groupLanguage": "Languages",
+    "groupTech": "Technology"
+  },
+  "parliament": {
+    "eyebrow": "Students",
+    "title": "The Student Parliament",
+    "lead": "Five students run school activities for the year: events, volunteering and media. The posts are filled by election.",
+    "hint": "Tap a role",
+    "gradeLabel": "Grade {grade}"
+  },
+  "life": {
+    "eyebrow": "Student life",
+    "title": "Beyond the lesson",
+    "lead": "Sport, subject olympiads, events, trips and volunteering.",
+    "drag": "Drag"
+  },
+  "alumni": {
+    "eyebrow": "Alumni",
+    "title": "Our graduates",
+    "lead": "Each graduate takes two minutes to say where they studied and what they do now.",
+    "watch": "2-minute video",
+    "classOf": "Class of {year}",
+    "destinationsTitle": "Where they studied",
+    "videoSoon": "Video in progress",
+    "note": "Videos are added with each graduate's permission. If you'd like to speak to one of them, tell us.",
+    "placeholder": "We'll publish admission percentages once we can back them with a document."
+  },
+  "parents": {
+    "eyebrow": "Parents",
+    "title": "What parents say",
+    "lead": "Parents of children who study here now. Ask for a phone number and we'll get permission and connect you."
+  },
+  "tracks": {
+    "eyebrow": "Pathways",
+    "title": "After school",
+    "finderCta": "Find the right track"
+  },
+  "why": {
+    "eyebrow": "Why us",
+    "titleA": "Four",
+    "titleAccent": "differences",
+    "lead": "You can check each one by visiting the school."
+  },
+  "admissions": {
+    "eyebrow": "Admissions",
+    "title": "Admissions",
+    "lead": "There are three ways to start.",
+    "l1Title": "Watch the videos",
+    "l1Body": "Watch the graduate videos. Nothing to fill in, nobody calls you.",
+    "l1Action": "Watch the videos",
+    "l2Title": "Ask a question",
+    "l2Body": "Message us on Telegram about the fee, the subject blocks, transport or the study-abroad process. We usually reply the same day.",
+    "l2Action": "Message on Telegram",
+    "l3Title": "Visit the school",
+    "l3Body": "Come on a normal school day. Sit in on a lesson and meet the teachers. Take the entrance assessment if you want to.",
+    "l3Action": "Book a visit",
+    "footnote": "Before comparing the fee, add up what you paid for tutoring last year.",
+    "start": "Start"
+  },
+  "footer": {
+    "address": "Sirdaryo region, Uzbekistan",
+    "addressNote": "Exact address on request",
+    "phone": "Phone",
+    "phoneNumber": "+998 __ ___ __ __",
+    "social": "Social",
+    "rights": "All rights reserved.",
+    "built": "Site updated in {year}."
+  },
+  "tagline": {
+    "label": "LEARN GROW LEAD — the school motto"
+  },
+  "common": {
+    "todo": "To be confirmed",
+    "readMore": "Read more",
+    "back": "Back",
+    "close": "Close"
+  }
+}
