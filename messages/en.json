@@ -67,8 +67,7 @@
   "life": {
     "eyebrow": "Student life",
     "title": "Beyond the lesson",
-    "lead": "Sport, subject olympiads, events, trips and volunteering.",
-    "drag": "Drag"
+    "lead": "Sport, subject olympiads, events, trips and volunteering."
   },
   "alumni": {
     "eyebrow": "Alumni",
@@ -89,7 +88,7 @@
   "tracks": {
     "eyebrow": "Pathways",
     "title": "After school",
-    "finderCta": "Find the right track"
+    "finderCta": "Choose a path."
   },
   "why": {
     "eyebrow": "Why us",
@@ -110,8 +109,7 @@
     "l3Title": "Visit the school",
     "l3Body": "Come on a normal school day. Sit in on a lesson and meet the teachers. Take the entrance assessment if you want to.",
     "l3Action": "Book a visit",
-    "footnote": "Before comparing the fee, add up what you paid for tutoring last year.",
-    "start": "Start"
+    "footnote": "Before comparing the fee, add up what you paid for tutoring last year."
   },
   "footer": {
     "address": "Sirdaryo region, Uzbekistan",
@@ -119,16 +117,13 @@
     "phone": "Phone",
     "phoneNumber": "+998 __ ___ __ __",
     "social": "Social",
-    "rights": "All rights reserved.",
-    "built": "Site updated in {year}."
+    "rights": "All rights reserved."
   },
   "tagline": {
     "label": "LEARN GROW LEAD — the school motto"
   },
   "common": {
     "todo": "To be confirmed",
-    "readMore": "Read more",
-    "back": "Back",
     "close": "Close",
     "prev": "Previous",
     "next": "Next"

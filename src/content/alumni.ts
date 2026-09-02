@@ -11,7 +11,7 @@ import type { Alum } from "./types";
  * NEEDED FROM THE SCHOOL: the four names, their current roles, the two missing
  * universities, and the YouTube ids once the videos are filmed.
  */
-export const alumni = [
+export const alumni: Alum[] = [
   {
     id: "alum-1",
     name: "",
@@ -76,4 +76,4 @@ export const alumni = [
       en: "Continuing my studies after school was straightforward.",
     },
   },
-] satisfies Alum[];
+];

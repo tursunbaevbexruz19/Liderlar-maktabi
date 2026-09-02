@@ -67,8 +67,7 @@
   "life": {
     "eyebrow": "Maktab hayoti",
     "title": "Darsdan tashqarida",
-    "lead": "Sport, fan olimpiadalari, tadbirlar, safarlar va volontyorlik.",
-    "drag": "Suring"
+    "lead": "Sport, fan olimpiadalari, tadbirlar, safarlar va volontyorlik."
   },
   "alumni": {
     "eyebrow": "Bitiruvchilar",
@@ -89,7 +88,7 @@
   "tracks": {
     "eyebrow": "Yoʻnalishlar",
     "title": "Maktabdan keyin",
-    "finderCta": "Yoʻnalishni aniqlash"
+    "finderCta": "Yoʻnalishni tanlang."
   },
   "why": {
     "eyebrow": "Nimaga biz",
@@ -110,8 +109,7 @@
     "l3Title": "Maktabga kelish",
     "l3Body": "Oddiy oʻquv kunida keling. Darsda oʻtirasiz, oʻqituvchilar bilan tanishasiz. Xohlasangiz, kirish sinovidan oʻtasiz.",
     "l3Action": "Tashrifga yozilish",
-    "footnote": "Narxni solishtirishdan oldin, oʻtgan yili repetitorlarga qancha toʻlaganingizni hisoblang.",
-    "start": "Boshlash"
+    "footnote": "Narxni solishtirishdan oldin, oʻtgan yili repetitorlarga qancha toʻlaganingizni hisoblang."
   },
   "footer": {
     "address": "Sirdaryo viloyati, Oʻzbekiston",
@@ -119,16 +117,13 @@
     "phone": "Telefon",
     "phoneNumber": "+998 __ ___ __ __",
     "social": "Ijtimoiy tarmoqlar",
-    "rights": "Barcha huquqlar himoyalangan.",
-    "built": "Sayt {year}-yilda yangilandi."
+    "rights": "Barcha huquqlar himoyalangan."
   },
   "tagline": {
     "label": "LEARN GROW LEAD — maktab shiori"
   },
   "common": {
     "todo": "Aniqlanmoqda",
-    "readMore": "Batafsil",
-    "back": "Ortga",
     "close": "Yopish",
     "prev": "Orqaga",
     "next": "Oldinga"

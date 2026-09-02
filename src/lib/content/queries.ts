@@ -68,7 +68,7 @@ export function getAlumni(locale: Locale) {
     now: pick(a.now, locale),
     destination: a.destination,
     quote: pick(a.quote, locale),
-    videoId: "videoId" in a ? a.videoId : undefined,
+    videoId: a.videoId,
   }));
 }
 

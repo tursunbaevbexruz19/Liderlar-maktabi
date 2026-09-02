@@ -1,6 +1,7 @@
 import { getTranslations, getLocale } from "next-intl/server";
 import { getAlumni } from "@/lib/content/queries";
 import type { Locale } from "@/i18n/routing";
+import { VideoFacade } from "@/components/ui/VideoFacade";
 
 /**
  * Success Stories — ESMA's two-part alumni model: PORTRAITS plus a DESTINATION
@@ -88,24 +89,14 @@ export async function SuccessStories() {
         >
           {alumni.map((alum) => (
             <li key={alum.id} className="group flex flex-col">
-              <div className="relative overflow-hidden rounded-[1.5rem]">
+              <VideoFacade
+                videoId={alum.videoId}
+                title={alum.now}
+                watchLabel={t("watch")}
+                soonLabel={t("videoSoon")}
+              >
                 <Portrait />
-                <div className="absolute inset-x-0 bottom-0 p-4">
-                  <span className="inline-flex items-center gap-2.5 rounded-full bg-paper/95 px-4 py-2.5 text-[1rem] font-semibold text-navy-900">
-                    {/* SVG, not a "▶" character: a text glyph here rendered at
-                        11px, breaking the site's 16px minimum type rule. */}
-                    <span
-                      aria-hidden
-                      className="flex h-7 w-7 items-center justify-center rounded-full bg-gold-500"
-                    >
-                      <svg viewBox="0 0 12 12" className="h-3 w-3">
-                        <path d="M3.5 2 L10 6 L3.5 10 Z" fill="#0e2038" />
-                      </svg>
-                    </span>
-                    {alum.videoId ? t("watch") : t("videoSoon")}
-                  </span>
-                </div>
-              </div>
+              </VideoFacade>
 
               {/* Leads with what they DO, not with a name we don't have yet. */}
               <h3 className="mt-6 text-2xl tone-display">{alum.now}</h3>
